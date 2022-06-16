@@ -56,7 +56,7 @@ ROOT_URLCONF = 'EntregaCoder.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\sofia\OneDrive\Documentos\python\EntregaCoder\EntregaCoderApp\templates\EntregaCoderApp'],
+        'DIRS': [r'EntregaCoderApp/templates/EntregaCoderApp'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

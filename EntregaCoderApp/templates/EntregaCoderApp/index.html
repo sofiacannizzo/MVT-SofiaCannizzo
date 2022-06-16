@@ -7,12 +7,13 @@
     <title>Mi Familia</title>
 </head>
 <body>
-    Familiares: <br>
+    <h1>Familiares:</h1> <br>
     {% for nombre in familia %}
         Nombre: {{nombre.nombre}} <br>
         Apellido: {{nombre.apellido}} <br>
         Edad: {{nombre.edad}} años <br>
         Fecha de nacimiento: {{nombre.fecha_nacimiento}} <br>
+        <br>
     {% endfor %}
 </body>
 </html>

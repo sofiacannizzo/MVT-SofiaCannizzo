@@ -19,5 +19,5 @@ from EntregaCoderApp.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('familia/', familia)
+    path('', familia)
 ]
